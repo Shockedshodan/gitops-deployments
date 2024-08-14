@@ -573,7 +573,7 @@ kind: Application
 metadata:
   annotations:
     argocd.argoproj.io/hook: Sync
-    argocd.argoproj.io/sync-wave: "-9"
+    argocd.argoproj.io/sync-wave: "-20"
   finalizers:
   - resources-finalizer.argocd.argoproj.io
   name: cert-manager
